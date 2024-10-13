@@ -1,0 +1,105 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+
+
+}
+body{
+    background-color: rgb(177, 237, 237);
+    background-image: url(premium_photo-1675968513964-d31fbcaa2ec2.avif);
+    background-size: contain;
+    height: 100vh;
+    /* background-position: center center; */
+}
+/* h1{
+    font-family: ;
+} */
+.container{
+    background-image: url(premium_photo-1675968513923-e07c6bbe0218.avif);
+    /* height: 100vh; */
+    background-size: cover;
+    background-color: rgb(172, 208, 255);
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 20px 20px 30px rgb(0,0,0,0.8);
+    margin: 20px auto;
+    margin-top: 50px;
+    border-radius: 10px;
+
+}
+.container:hover{
+    box-shadow: 35px 35px 30px rgb(0,0,0,0.8);
+}
+form{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+}
+form input[type="text"]{
+    padding: 10px;
+    font-size: 20px;
+    width: 70%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+form input[type="submit"]{
+    text-align: center;
+    width: 50%;
+    padding: 10px 20px ;
+    border: none;
+    background-color: rgb(55, 120, 195);
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+form input[type="submit"]:hover{
+    background-color:rgb(16, 117, 219) ;
+
+}
+
+.icon img{
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.temp{
+    font-size: 50px;
+    font-weight: 1000;
+    margin-top: 20px;
+}
+.desc{
+    font-size: 35px;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.details>div{
+    
+    font-size: 18px;
+    background-color: rgb(153, 203, 244);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    min-height: 40px;
+    text-align: center;
+    align-items: center;
+    flex: 1;
+}
+
+
